@@ -1,3 +1,13 @@
+What is HTML?
+
+It is not a programming language since it has no control structure, loops or conditionals
+However, it is a markup or tagging language that allows the creation of a web page in which we can put content such as videos, photos, etc ...
+although it does not have to do with the visual of the web since for the style or design we must use CSS.
+
+To work in HTML we must have a web browser to be looking at what we do, and we will also use a text editor.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ¿Qué es HTML?
 
 No es un lenguaje de programacion ya que no tiene estructura de control, bucles ni condicionales
