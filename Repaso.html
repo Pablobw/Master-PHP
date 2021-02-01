@@ -41,8 +41,33 @@ Example:
             Curicó es una de las urbes más pobladas del valle longitudinal o ventral chileno.
 
         </p>
+
+        <h4>Formulario</h4>
+        <form>
+            <p>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" placeholder="Escribe tu nombre"/>
+            </p>    
+            <p>
+                <label for="Descripcion"></label>
+                <textarea name="Descripcion" id="" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="Radio" name="Genero" value="Hombre">Hombre <br/>
+                <input type="Radio" name="Genero" value="Mujer">Mujer <br/>
+                <input type="Radio" name="Genero" value="Nada">Nada <br/>
+            </p>
+            <p>
+                <select name="Generodos">
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Nada">Nada</option>
+                </select>
+                <input type="Submit" value="Enviar formulario"/> <!---Proximamente se usara con php-->
+            </p>
+        </form> <!--Hace un formulario, aunque action y method, son para bases de datos-->
         <h4>Listado de Frutas</h4>
-            <ol> <!-- Lista ordenada-->
+                <ol> Lista ordenada
                 <li>Manzana</li> <!-- para crear cada elemento de la lista-->
                 <li>Naranja</li>
                 <li>Pera</li>
@@ -55,6 +80,24 @@ Example:
                 <li>Sandia</li>
             </ul>
         </blockquote> 
-
+        <h5>Tablas</h5>
+        <table border="3"> <!--Creacion de tablas y creacion del marco con "border = "3" "-->
+        
+            <tr> <!--Representa una fila-->
+                <th>Nombre</th> <!--Rellenar una columna y con th pinta en negrita-->
+                <th>Apellidos</th>
+                <th>Pais</th>
+            </tr>
+            <tr>
+                <td>Pablo</td> 
+                <td>Barrera</td>
+                <td>Chile</td>
+            </tr>
+            <tr>
+                <td>Benjamin</td> 
+                <td>Villarreal</td>
+                <td>Mexico</td>
+            </tr>
+        </table>
     </body>
 </html>
